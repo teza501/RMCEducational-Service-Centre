@@ -1,5 +1,8 @@
 # RMCEducational-Service-Centre
 Assignment received
+# Steps should be followed to see the website on you local system
+- clone the repo then run `npm init` in your terminal and then run `npm start` in prac folder
+- for api folder  run `node/nodemon index.js`
 - go to http://localhost:3000/blog  --> to see the blog page
 
 # Here the Prac folder is frontend part and api is backend
