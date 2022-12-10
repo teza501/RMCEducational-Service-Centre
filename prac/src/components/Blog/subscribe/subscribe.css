@@ -1,0 +1,66 @@
+.subscribeContainer{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 300px;
+    position: relative;
+    top: 140px;
+    left: 50px;
+    width: 400px;
+}
+
+.subscribeContainer h2{
+    color: #30445C;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 80px;
+    width: 200px;
+    border-bottom: 2px solid #f87d5e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subInput{
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 80px;
+    border-radius: 40px;
+    border: 2px solid rgb(204, 218, 240);
+
+}
+.subInput:focus{
+    outline: none;
+}
+
+.subBtn{
+    height: 45px;
+    width: 250px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #30445C;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.subBtn:hover{
+    background-color: #f87d5e;
+}
+.latestpost{
+    height: 600px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.latestpostContainer h2{
+    padding: 20px;
+    margin-left: 80px;
+    color: #30445C;
+    font-size: 25px;
+    width: 200px;
+    border-bottom: 2px solid #f87d5e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

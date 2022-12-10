@@ -1,0 +1,173 @@
+.container{
+    display: grid;
+    grid-template-rows:60px 100px 200px 60px;
+    grid-template-columns: repeat(2,1fr);
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+
+.left-side{
+    width: 50%;
+    padding-top: 20vh;
+}
+.right-side{
+    width: 50%;
+    margin-left: 10px;
+}
+.right-side img{
+    padding-top: 20vh;
+    height: 600px;
+    width: 600px;
+
+}
+img {
+    animation-name: move;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes move {
+    0% {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 10px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+
+
+
+  /* BussinesCommitment container */
+  .container h3{
+    color: #f87d5e;
+    font-size: 18px;
+}
+
+.container h2{
+    color: #30445C;
+    font-size: 40px;
+}
+.container h2 span{
+    color: #f87d5e;
+}
+
+.detatils{
+
+  width: 630px;
+  height: 400px;
+  padding-left: 20px;
+  padding-top: 12px;
+  display: grid;
+  row-gap: 12px;
+  column-gap: 12px;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+  height: 180px;
+  width: 150px;
+
+}
+
+.btn{
+  height: 50px;
+  width: 300px;
+  margin-top: 10px;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  background-color: #30445C;
+}
+.btn:hover{
+  transition: 0.5s;
+  background-color: #f87d5e;
+}
+
+.green{
+  font-size: 30px;
+  font-style: bold;
+  color: #1bccae;
+}
+
+.orange{
+  font-size: 30px;
+  font-style: bold;
+  color: #f87d5e;
+}
+.purple{
+  font-size: 30px;
+  font-style: bold;
+  color: #7947f0;
+}
+.box p{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+
+/* 
+part 4 of home page */
+
+.services h1{
+  margin-top: 90px;
+  font-size: 50px;
+  color: #30445C;
+ margin-left:  230px;
+ margin-right: 80px;
+}
+.services h1 span{
+  color: #f87d5e;
+}
+
+.ServiceContainer{
+ 
+  width: 100%;
+  height: 600px;
+  padding-left: 20px;
+  padding-top: 12px;
+  display: grid;
+  row-gap: 12px;
+  column-gap: 12px;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.serviceBox{
+  height: 350px;
+  width: 400px;
+  border-radius: 5px;
+}
+.serviceBox:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.serviceBox img{
+  margin-left: 20px;
+}
+.serviceBox h3{
+  font-size: 20px;
+  color: #30445C;
+  margin-left: 20px;
+}
+.serviceBox p{
+  font-size: 15px;
+  margin-left: 20px;
+}
+.addPost{
+  font-size: 30px;
+ color: #f87d5e;
+  cursor: pointer;
+  margin: 50px;
+}

@@ -1,0 +1,54 @@
+.main h3{
+    color: #f87d5e;
+    font-size: 18px;
+}
+
+.main h2{
+    color: #30445C;
+    font-size: 45px;
+}
+.main h2 span{
+    color: #f87d5e;
+}
+
+input{
+    border: none;
+    color: rgb(208, 205, 244);
+    margin: 10px 0;
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid rgb(198, 205, 231);
+}
+input:focus{
+    outline: none;
+}
+.mail{
+    margin-right: 30px;
+}
+
+input::placeholder{
+    color: #b4b7bb;
+
+
+}
+.btn{
+    height: 60px;
+    width: 150px;
+    margin-top: 10px;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    background-color: #30445C;
+}
+.btn:hover{
+    transition: 0.5s;
+    background-color: #f87d5e;
+}
+

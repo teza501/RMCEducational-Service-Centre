@@ -1,0 +1,52 @@
+.blog{
+    display: grid;
+    grid-template-rows:10px 100px 200px 60px;
+    grid-template-columns: repeat(2,600px);
+    min-height: 100vh;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+}
+.blogbanner{
+    position: absolute;
+    left: 0;
+    height: 250px;
+    width: 100%;
+    background-color: #30445C;
+    opacity: 0.8;
+}
+.blogbanner h1{
+    top:150px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    opacity: 0.9;
+    margin-left: 90px;
+}
+
+
+.blog-left-side{
+    width: 60%;
+    top: 150px;
+    position: absolute;
+    padding-top: 20vh;
+    height: 500px;
+    
+}
+
+.blog-right-side{
+    top: 150px;
+    width: 40%;
+    position: absolute;
+    height: 500px;
+    right: 0;
+    
+}
+
+.blog-left-side{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}

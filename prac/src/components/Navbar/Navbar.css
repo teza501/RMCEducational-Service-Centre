@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html{
+    font-size: 62.5%; 
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.main-nav{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 20rem 1fr 2fr 1fr ;
+}
+.logo{
+    grid-column: 1/2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.hamburgerMenu{
+    display: none;
+}
+.logo img{
+    height: 65px;
+    max-width: 75%;
+}
+.menu-link{
+    grid-column: 2/3;
+}
+
+.menu-link ul{
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-link ul li a{
+    color: rgb(0, 0, 3,0.8);
+    transition: 0.5s;
+    font-size: 17px;
+    margin-right: 60px;
+    font-weight: 700;
+}
+.menu-link ul li a:hover{
+    color: #f87d5e;
+}
+
+.contact{
+   display: flex;
+   justify-content: space-around;
+   margin: 8px;
+}
+.phoneLogo{
+    color: #fff;
+    background-color: #f87d5e;
+    height: 30px;
+    padding: 5px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.number{
+    margin-left: 10px;
+    height: 9rem;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    color: #30445C;
+    transition: 0.5s;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.getAProposal{
+    border-radius: 40px;
+    width: 200px;
+    color: #fff;
+    background-color: #30445C;
+    font-weight: 500;
+    height: 50px;
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+    display: inline-block;
+	text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.getAProposal:hover{
+    background-color: #f87d5e;
+}
+
+
+@media (max-width: 1080px){
+    .main-nav{
+       
+        height: 8rem;
+    }
+    
+    .menu-link{
+        display: none;
+    }
+    .logo,
+    .contact ul{
+        position: relative;
+        left: 35px;
+        height: 3rem;
+    }
+    .dial{
+        display: none;
+    }
+    .getAProposal{
+        height: 40px;
+        width: 150px;
+        margin-left: 150px;
+    }
+    .hamburgerMenu{
+        display: contents;
+        font-size: 20px;
+        display: flex;
+        position: relative;
+        top: 30px;
+        cursor: pointer;
+        color: #30445C;
+    }
+    .mobile-menu-link{
+        grid-column: 2/3;
+        position: relative;
+        z-index: 99;
+    }
+    
+    .mobile-menu-link{
+        background-color: #fff;
+        height: 40rem;
+        display: grid;
+        grid-column: 1/4;
+        align-items:center;
+        padding-left: 1rem;
+        transition: all 2s linear;
+        transform-origin: top;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    }
+   
+}

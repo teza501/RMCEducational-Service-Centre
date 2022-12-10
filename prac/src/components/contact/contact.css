@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.banner{
+    position: absolute;
+    left: 0;
+    height: 250px;
+    width: 100%;
+    background-color: #30445C;
+    opacity: 0.7;
+}
+.banner h1{
+    top:150px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    opacity: 0.9;
+    margin-left: 400px;
+
+}
+.heading{
+    margin-top: 200px;
+    width: 350px;
+}
+.Contact-icon{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #f87d5e;
+    justify-content: center;
+}
+.loc, .call,.mail{
+    
+}
+.loc p{
+   position: relative;
+   bottom: 39px;
+}
+
+.call p{
+    position: relative;
+    bottom: 39px;
+    cursor: pointer;
+    right: 80px;
+}
+.call p:hover{
+    color: #f87d5e;
+}
+.mail p{
+    position: relative;
+    bottom: 40px;
+    cursor: pointer;
+    right: 40px;
+}
+.mail p:hover{
+    color: #f87d5e;
+}
+.content{
+    display: grid;
+    grid-template-rows:10px 100px 200px 60px;
+    grid-template-columns: repeat(2,600px);
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+
+.detatil{
+  width: 700px;
+  height: 400px;
+  padding-left: 20px;
+  padding-top: 20px;
+  display: grid;
+  grid-template-rows: 100px 100px 100px ;
+  grid-template-columns: 130px 130px 130px ;
+}
+.left-side{
+    width: 40%;
+    padding-top: 20vh;
+    
+}
+.left-side p{
+    font-size: 15px;
+}
+.right-side{
+    width: 60%;
+}
+.content h3{
+    color: #f87d5e;
+    font-size: 18px;
+}
+
+.content h2{
+    color: #30445C;
+    font-size: 40px;
+    padding: 10px;
+}
+.content h2 span{
+    color: #f87d5e;
+}
+.heading p{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.Cbox{
+    height: 150px;
+    width: 100px;
+}
+
+
+/* form */
+.ContactForm{
+    background-color: #fff;
+    height: 900px;
+    width: 550px;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+    top: 100px;
+    left: 20px;
+    margin-top: 100px;
+    z-index: 9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.ContactForm input{
+    flex-direction: row;
+    display: flex;
+    width: 500px;
+    height: 70px;
+}
+
+.ContactForm h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #30445C;
+    font-weight: 900;
+    padding: 30px;
+    margin-left: 140px;
+    border-bottom: 2px solid #f87d5e;   
+    width: 150px;
+
+}
+
+.ContactForm p{
+    font-size: 15px;
+    margin: 0px 30px;
+    padding-top: 10px;
+}
+
+.ContactForm label{
+    color: #f87d5e;
+    font-size: 15px;
+    top:30px;
+    display: none;
+   position: relative;
+   right: 240px;
+}
+
+.ContactBtn{
+height: 50px;
+border: none;
+width:300px;
+background-color: #30445C;
+color: #fff;
+border-radius: 40px;
+font-size: 16px;
+margin-top: 60px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+cursor: pointer;
+margin-left: 150px;
+margin-bottom: 50px;
+}
+.ContactBtn:hover{
+    background-color: #f87d5e;
+}
+.textarea{
+    border: none;
+    width: 500px;
+    height: 200px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(125, 123, 123);
+    font-size: 18px;
+    overflow: hidden;
+}
+.textarea:focus{
+    outline: none;
+}

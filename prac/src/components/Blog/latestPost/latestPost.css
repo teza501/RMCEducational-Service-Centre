@@ -1,0 +1,25 @@
+
+.postSummaryConatner img{
+    top: -5px;
+    border-radius: 10px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.postSummaryConatner{
+    margin-top: 20px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
+.postSummaryTitle{
+    height: 50px;
+    width: 300px;
+    display: flex;
+   margin-top: 20px;
+    font-size: 15px;
+}
